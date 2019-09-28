@@ -5,4 +5,6 @@
 
     <p>{{blog.body}}</p>
 
+    <div id="author">Written by <a href='./blog?user={{blog.owner.id}}'>{{blog.owner.email}}</a> {{blog.pub_date}}</div>
+
 {% endblock %}

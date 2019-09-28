@@ -1,20 +1,30 @@
 .error {
     color: red;
     font-style: italic;
-  }
+}
 
-  h1 {
+h1 {
     text-align: center;
-  }
+}
 
-  .menu {
-      padding-right: 20px;
-  }
+.menu {
+    padding-right: 20px;
+}
     
-  h2 {
-      font-family: Helvetica;
-  }
+h2 {
+    font-family: Helvetica;
+}
 
-  #body {
-      font-family: Helvetica;
-  }
+#body {
+    font-family: Helvetica;
+}
+
+.success {
+    color: green;
+    font-style: italic;
+}
+
+#author {
+    font-style: italic;
+    font-size: smaller;
+}
