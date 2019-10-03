@@ -3,12 +3,22 @@
     font-style: italic;
 }
 
+body{ background-color: rgb(151, 205, 226);}
+
 h1 {
     text-align: center;
+    font-family: "Lucida Console";
 }
 
 .menu {
-    padding-right: 20px;
+    padding: 4px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 15px;
+    font-family: Helvetica;
+    color: white;
 }
     
 h2 {
@@ -28,3 +38,23 @@ h2 {
     font-style: italic;
     font-size: smaller;
 }
+
+.form-submit-button {
+
+    background: #0066A2;
+    
+    color: white;
+    
+    border-style: outset;
+    
+    border-color: #0066A2;
+    
+    height: 50px;
+    
+    width: 100px;
+    
+    font: bold 15px arial, sans-serif;
+    
+    text-shadow:none;
+    
+    }
