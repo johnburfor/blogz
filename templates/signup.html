@@ -7,22 +7,22 @@
         <tr>
             <td><label for="email">Email</label></td>
             <td>
-                <input name="email" type="text" value="{{ email }}">
+                <input class="form-control" name="email" type="text" value="{{ email }}">
             </td>
         </tr>
         <tr>
             <td><label for="password">Password</label></td>
             <td>
-                <input name="password" type="password">
+                <input class="form-control" name="password" type="password">
             </td>
         </tr>
         <tr>
             <td><label for="verify">Verify Password</label></td>
             <td>
-                <input name="verify" type="password">
+                <input class="form-control" name="verify" type="password">
             </td>
         </tr>
     </table>
-    <input type="submit" value="Sign Up">
+    <input type="submit" value="Sign Up" class="btn btn-default">
 </form>
 {% endblock %}

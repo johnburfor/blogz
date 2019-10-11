@@ -168,7 +168,7 @@ def signup():
                  
     return render_template('signup.html', email=email)
 
-@app.route('/logout')
+@app.route('/logout', methods=['POST', 'GET'])
 def logout():
     del session['email']
     return redirect('/blog')
